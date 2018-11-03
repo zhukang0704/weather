@@ -1,0 +1,28 @@
+{
+    "name": "zhukang\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhukang",
+            "email": "910008482@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhukang\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhukang\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
