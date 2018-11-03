@@ -5,7 +5,7 @@
 ## 安装
 
 ```
-$ composer require zhukang/weather -vvv
+$ composer require zhukang/weather 0.01
 ```
 
 ## 配置
