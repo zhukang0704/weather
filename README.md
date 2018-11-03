@@ -12,6 +12,8 @@ $ composer require zhukang/weather 0.01
 
 在使用本扩展之前，你需要去 [高德开放平台](https://lbs.amap.com/dev/id/newuser) 注册账号，然后创建应用，获取应用的 API Key。
 
+如果嫌麻烦，可以暂时用我的key：7c942ce178b93501f4216fd08b836db6  （免去注册繁琐步骤）
+
 ## 使用
 
 ```
